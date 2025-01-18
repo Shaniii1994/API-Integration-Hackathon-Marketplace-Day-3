@@ -1,6 +1,7 @@
 import React from 'react';
 import Cartitems from './[cartitems]/page';
 
+
 const ShoppingCart = () => {
   return (
     <div className="w-full bg-white mt-10">
@@ -23,3 +24,4 @@ const ShoppingCart = () => {
 };
 
 export default ShoppingCart;
+

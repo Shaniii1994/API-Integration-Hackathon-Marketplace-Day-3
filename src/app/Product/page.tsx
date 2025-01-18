@@ -3,7 +3,6 @@ import ProductDetails from './[productdetails]/page';
 import RelatedProducts from './[productdetails]/[relatedproducts]/page';
 import Image from 'next/image';
 
-
 const Product = () => {
   return (
     <div className="w-full bg-white mt-10">
@@ -37,5 +36,6 @@ const Product = () => {
 </div>
   );
 };
+
 
 export default Product;

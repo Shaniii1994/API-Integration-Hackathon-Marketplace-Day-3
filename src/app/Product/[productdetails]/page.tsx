@@ -2,6 +2,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import Image from "next/image";
 
+
 const ProductDetails = () => {
   return (
     <div className="flex flex-col md:flex-row mt-10 gap-6 p-4 sm:p-6 lg:p-8 max-w-5xl mx-auto shadow-lg border rounded-md bg-white">

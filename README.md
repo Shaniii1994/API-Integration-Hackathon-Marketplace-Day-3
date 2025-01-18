@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guide to Import Data into Sanity
 
-## Getting Started
+This guide provides step-by-step instructions to set up a project and import data into Sanity for the Products models.
 
-First, run the development server:
+---
+
+## **Step 1: Clone the Repository**
+
+Start by cloning the repository containing the Sanity project and import scripts:
+
+Use Github Desktop to clone the repo `( Recommended )`
+
+or
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/anasseth/next-ecommerce-template-4.git
+cd next-ecommerce-template-4
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **Step 2: Install Dependencies**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run the following command to install all required packages:
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Step 3: Configure Environment Variables**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Create a `.env` file in the root of the project directory:
 
-## Deploy on Vercel
+2. Open `.env` and add the following environment variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   NEXT_PUBLIC_SANITY_API_VERSION="2025-01-15"
+   NEXT_PUBLIC_SANITY_PROJECT_ID="{your-sanity-project-id}"
+   NEXT_PUBLIC_SANITY_DATASET="production"
+   SANITY_API_TOKEN="{your-sanity-api-token}"
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - **`NEXT_PUBLIC_SANITY_PROJECT_ID`**: Found in your Sanity project.
+   - **`SANITY_API_TOKEN`**: Generate a token by navigating to **Settings > API > Add API Token** in your Sanity dashboard. Give the token appropriate read/write permissions - Select `Developer`.
+   - **`NEXT_PUBLIC_SANITY_DATASET`**: Set this to `production`.
+
+---
+
+## **Step 4: Import Data**
+
+Run the following command to import sample data for `Product` models:
+
+```bash
+npm run import-data
+```
+
+---
+
+## **Step 5: Verify the Data in Sanity Studio**
+
+1. Go to your Sanity Studio project.
+2. You should see `Product` models
+3. Model will have some sample documents automatically populated after the import.
+
+---
+
+## **Troubleshooting Tips**
+
+- Ensure that your API token has proper permissions to write data to your dataset.
+- Double-check that your `NEXT_PUBLIC_SANITY_PROJECT_ID` and `SANITY_API_TOKEN` values are correct.
+- If errors occur during data import, review the terminal logs for detailed messages.
+
+---
+
+By following these steps, you will successfully import sample data into your Sanity project and have functional models ready for use.
