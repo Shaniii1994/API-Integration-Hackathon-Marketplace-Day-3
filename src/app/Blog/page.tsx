@@ -38,7 +38,7 @@ const Blog = () => {
           {/* Blog Post 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <Image
-              src="/Products/blogpage1.jpg"
+              src="/blogpage/blogpage1.png"
               alt="Post 1"
               width={800}
               height={400}
@@ -60,7 +60,7 @@ const Blog = () => {
           {/* Blog Post 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <Image
-              src="/Products/blogpage2.jpg"
+              src="/blogpage/blogpage2.png"
               alt="Post 2"
               width={800}
               height={400}
@@ -82,7 +82,7 @@ const Blog = () => {
           {/* Blog Post 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <Image
-              src="/Products/blogpage3.jpg"
+              src="/blogpage/blogpage3.png"
               alt="Post 3"
               width={800}
               height={400}
@@ -130,7 +130,7 @@ const Blog = () => {
             <ul className="space-y-4 mb-4">
               <li className="flex items-center">
                 <Image
-                  src="/Products/blogpage4.jpg"
+                  src="/blogpage/blogpage4.png"
                   alt="Recent Post 1"
                   width={70}
                   height={51}
@@ -147,7 +147,7 @@ const Blog = () => {
             <ul className="space-y-4 mb-4">
             <li className="flex items-center">
                 <Image
-                  src="/Products/blogpage5.jpg"
+                  src="/blogpage/blogpage5.png"
                   alt="Recent Post 1"
                   width={70}
                   height={51}
@@ -164,7 +164,7 @@ const Blog = () => {
             <ul className="space-y-4 mb-4">
             <li className="flex items-center">
                 <Image
-                  src="/Products/blogpage6.jpg"
+                  src="/blogpage/blogpage6.png"
                   alt="Recent Post 1"
                   width={70}
                   height={51}
@@ -181,7 +181,7 @@ const Blog = () => {
             <ul className="space-y-4 mb-4">
             <li className="flex items-center">
                 <Image
-                  src="/Products/blogpage7.jpg"
+                  src="/blogpage/blogpage7.png"
                   alt="Recent Post 1"
                   width={70}
                   height={51}
@@ -203,7 +203,7 @@ const Blog = () => {
             <ul className="gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage8.jpg"
+                  src="/blogpage/blogpage8.png"
                   alt="Offer Product"
                   width={100}
                   height={100}
@@ -216,7 +216,7 @@ const Blog = () => {
             <ul className="gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage9.jpg"
+                  src="/blogpage/blogpage9.png"
                   alt="Offer Product"
                   width={100}
                   height={100}
@@ -229,7 +229,7 @@ const Blog = () => {
             <ul className="gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage10.jpg"
+                  src="/blogpage/blogpage10.png"
                   alt="Offer Product"
                   width={100}
                   height={100}
@@ -246,7 +246,7 @@ const Blog = () => {
             <ul className="gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage11.jpg"
+                  src="/blogpage/blogpage11.png"
                   alt="Offer Product"
                   width={100}
                   height={100}
@@ -259,7 +259,7 @@ const Blog = () => {
             <ul className="grid grid-cols-2 gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage12.jpg"
+                  src="/blogpage/blogpage12.png"
                   alt="Offer Product"
                   width={100}
                   height={100}
@@ -272,7 +272,7 @@ const Blog = () => {
             <ul className="grid grid-cols-2 gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage13.jpg"
+                  src="/blogpage/blogpage13.png"
                   alt="Offer Product"
                   width={100}
                   height={100}
@@ -285,7 +285,7 @@ const Blog = () => {
             <ul className="grid grid-cols-2 gap-4">
               <li>
                 <Image
-                  src="/Products/blogpage14.jpg"
+                  src="/blogpage/blogpage14.png"
                   alt="Offer Product"
                   width={100}
                   height={100}

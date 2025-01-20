@@ -26,7 +26,7 @@ const Singleblog = () => {
           {[1].map((post, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src={`/Products/blogpage${post}.jpg`}
+                src={`/blogpage/blogpage${post}.jpg`}
                 alt={`Blog ${post}`}
                 width={800}
                 height={400}
@@ -146,7 +146,7 @@ const Singleblog = () => {
                 <h3 className="text-lg font-semibold text-[#151875]">Recent Posts</h3>
                 <ul className="mt-6 space-y-2 ">
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage4.jpg" 
+                  <Image src="/blogpage/blogpage4.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -155,7 +155,7 @@ const Singleblog = () => {
                   <span className="text-[#8A8FB9] w-[174.31px] h-32px] top-[7px] left-[75.69px] gap-[0px] opacity-[0px]">Aug 09 2020</span></li>
                   
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage5.jpg" 
+                  <Image src="/blogpage/blogpage5.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -164,7 +164,7 @@ const Singleblog = () => {
                   <span className="text-[#8A8FB9] w-[174.31px] h-32px] top-[7px] left-[75.69px] gap-[0px] opacity-[0px]">Aug 09 2020</span></li>
                   
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage6.jpg" 
+                  <Image src="/blogpage/blogpage6.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -173,7 +173,7 @@ const Singleblog = () => {
                   <span className="text-[#8A8FB9] w-[174.31px] h-32px] top-[7px] left-[75.69px] gap-[0px] opacity-[0px]">Aug 09 2020</span></li>
                   
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage7.jpg" 
+                  <Image src="/blogpage/blogpage7.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -188,7 +188,7 @@ const Singleblog = () => {
                 <h3 className="text-lg font-semibold text-[#151875]">Sale Product</h3>
                 <ul className="mt-6 space-y-2 ">
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage8.jpg" 
+                  <Image src="/blogpage/blogpage8.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -197,7 +197,7 @@ const Singleblog = () => {
                   <span className="text-[#8A8FB9] w-[174.31px] h-32px] top-[7px] left-[75.69px] gap-[0px] opacity-[0px]">Aug 09 2020</span></li>
                   
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage9.jpg" 
+                  <Image src="/blogpage/blogpage9.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -206,7 +206,7 @@ const Singleblog = () => {
                   <span className="text-[#8A8FB9] w-[174.31px] h-32px] top-[7px] left-[75.69px] gap-[0px] opacity-[0px]">Aug 09 2020</span></li>
                   
                   <li className="inline-flex">
-                  <Image src="/Products/blogpage10.jpg" 
+                  <Image src="/blogpage/blogpage10.jpg" 
                   alt="title"
                   width={400}
                   height={400}
@@ -226,7 +226,7 @@ const Singleblog = () => {
           {/* Product 1 */}
           <li className="text-justify">
           <Image
-            src="/Products/blogpage11.jpg"
+            src="/blogpage/blogpage11.jpg"
             alt="Duis lectus est."
             width={400}
             height={400}
@@ -241,7 +241,7 @@ const Singleblog = () => {
         {/* Product 2 */}
         <li className="text-justify">
           <Image
-            src="/Products/blogpage12.jpg"
+            src="/blogpage/blogpage12.jpg"
             alt="Sed placerat."
             width={400}
             height={400}
@@ -256,7 +256,7 @@ const Singleblog = () => {
         {/* Product 3 */}
         <li className="text-justify">
           <Image
-            src="/Products/blogpage13.jpg"
+            src="/blogpage/blogpage13.jpg"
             alt="Netus proin."
             width={400}
             height={400}
@@ -271,7 +271,7 @@ const Singleblog = () => {
         {/* Product 4 */}
         <li className="text-justify">
           <Image
-            src="/Products/blogpage14.jpg"
+            src="/blogpage/blogpage14.jpg"
             alt="Platea in."
             width={400}
             height={400}

@@ -8,7 +8,7 @@ const ProductDetails = () => {
     <div className="flex flex-col md:flex-row mt-10 gap-6 p-4 sm:p-6 lg:p-8 max-w-5xl mx-auto shadow-lg border rounded-md bg-white">
       {/* Left Section: Thumbnails */}
       <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 md:space-y-4 overflow-x-scroll md:overflow-visible">
-        {["product1.jpg", "product2.jpg", "product3.jpg"].map((img, index) => (
+        {["product1.png", "product2.png", "product3.png"].map((img, index) => (
           <Image
             key={index}
             src={`/Sidebar/${img}`}
@@ -23,7 +23,7 @@ const ProductDetails = () => {
       {/* Main Image Section */}
       <div className="flex-1">
         <Image
-          src="/Sidebar/product4.jpg"
+          src="/Sidebar/product4.png"
           alt="Main Product"
           width={400}
           height={400}

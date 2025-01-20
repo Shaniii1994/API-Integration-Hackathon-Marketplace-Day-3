@@ -5,7 +5,7 @@ const nextConfig = {
     },
     reactStrictMode: true,
     images: {
-      domains: ['fakestoreapi.com'], // Add the external domain here
+      domains: ['https://next-ecommerce-template-4.vercel.app/api/product'], // Add the external domain here
     },
 };
 

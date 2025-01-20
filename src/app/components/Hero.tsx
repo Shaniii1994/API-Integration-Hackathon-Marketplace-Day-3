@@ -2,7 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import FurnitureBanner from '@/app/components/banner';
-import TrendingProducts from './trendingproducts';
+import TrendingProducts from '../TrendingProducts/page';
+
 const Hero = () => {
   return (
     <div>
@@ -10,9 +11,8 @@ const Hero = () => {
       <div className="mb-5">
         <FurnitureBanner />
       </div>
-
-      {/* Featured Products Section */}
-      <div className="text-[#1A0B5B] text-[42px] font-bold flex justify-center mt-20 mb-5">
+{/* Featured Products Section */}
+<div className="text-[#1A0B5B] text-[42px] font-bold flex justify-center mt-20 mb-5">
   Featured Products
 </div>
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 md:px-12 lg:px-20">

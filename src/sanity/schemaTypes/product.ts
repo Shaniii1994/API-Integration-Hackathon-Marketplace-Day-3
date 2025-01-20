@@ -1,3 +1,4 @@
+
 export default {
   name: 'product',
   type: 'document',
@@ -20,13 +21,13 @@ export default {
     },
     {
       name: 'price',
-      type: 'string',
+      type: 'number',
       title: 'Price',
       validation: (Rule: any) => Rule.required().error('Price is required'),
     },
     {
       name: 'description',
-      type: 'text',
+      type: 'string',
       title: 'Description',
       validation: (Rule: any) =>
         Rule.max(150).warning('Keep the description under 150 characters.'),
